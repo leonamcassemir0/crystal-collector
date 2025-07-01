@@ -20,10 +20,10 @@ pygame.display.set_caption("Coletor de Maçãs - Jogo Atualizado")
 clock = pygame.time.Clock()
 
 # Carregamento e redimensionamento das imagens
-img_cesta = pygame.image.load("cesta.png")
+img_cesta = pygame.image.load("assets/cesta.png")
 img_cesta = pygame.transform.scale(img_cesta, (60, 50))
 
-img_maca = pygame.image.load("maca.png")
+img_maca = pygame.image.load("assets/maca.png")
 img_maca = pygame.transform.scale(img_maca, (30, 30))
 
 
